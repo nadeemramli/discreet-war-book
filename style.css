@@ -153,15 +153,16 @@ svg {
 }
    
 .main {
-  padding: 1vmax 1vmax 1vmax 1vmax;
-  margin: 1vmin 1vmax 1vmax 1vmax;
+  padding-right: 10%;
+  padding-left: 10%;
   text-align: left;
 }
 
 
-.desciption-container {}
-
-
+.description-container {
+  padding-right: auto;
+  margin: auto;
+}
 
 .main-section {
   pointer-events: auto;
@@ -189,11 +190,6 @@ svg {
 }
 
 .main-topic-item {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-
   padding: 0.5vmin 0vmin 1vmin 0.5vmin;
   margin: 0vmax 0.2vmax 0.2vmax 0.2vmax;
   border-style: groove;
