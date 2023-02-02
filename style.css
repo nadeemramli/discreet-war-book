@@ -119,12 +119,19 @@ svg {
 }
 
 #home-image{
+  margin-top: 35px;
   align-items: center;
   justify-content: center;
   display:block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%
+  width: 100%
+}
+
+#home-headline{
+  margin-top: 2vmax;
+  text-align: center;
+  font-size: large;
 }
 
 .header {
@@ -169,8 +176,8 @@ svg {
 }
 
 .main-topic {
-  padding: 20px 10px 20px 10px;
-  margin: 0px 300px 0px 0px;
+  padding: 2vmin 1vmin 2vmin 1vmin;
+  margin: 0vmin 5vmax 0vmin 0vmin;
 
   border-style: groove;
   border-width: 2px;
@@ -182,13 +189,18 @@ svg {
 }
 
 .main-topic-item {
-  padding: 5px 0px 5px 10px;
-  margin: 0px 2px 2px 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 
+  padding: 0.5vmin 0vmin 1vmin 0.5vmin;
+  margin: 0vmax 0.2vmax 0.2vmax 0.2vmax;
   border-style: groove;
   border-width: 2px;
   border-radius: 10px;
   border-color: gray;
+  display: block;
 
 
 }
