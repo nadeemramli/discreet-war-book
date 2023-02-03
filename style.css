@@ -3,7 +3,6 @@
   --clr-primary: hsl(0,100%,100%);
   
   --ff-primary:'Poppins', sans-serif;
-  --ff-secondary: 'La Beller Aurore';
   --ff-body: var(--ff-primary);
   --ff-heading: var(--ff-primary);
 
@@ -112,10 +111,6 @@ svg {
 
 .icons {
   padding:3px;
-}
-
-#biggest-headline{
-  font-family: 'La Belle Aurore', cursive !important;
 }
 
 #home-image{
