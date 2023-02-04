@@ -265,7 +265,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
 
         <div class="main-section">
-          links and forms
+          <div>
+            <form name="email-subscription" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+              <p>
+                <label>Your Name :<input type="text" name="name" id="Name"/></label>
+              </p>
+              <p>
+                <label>Your Email : <input type="email" name="email" id="email"/></label>
+              </p>
+              <p>
+                <button type="submit">Subscribe</button>
+              </p>
+              <div data-netflify-recaptcha="true"></div>
+            </form>
+          </div>
         </div>
 
 
